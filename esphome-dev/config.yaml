@@ -33,7 +33,7 @@ backup_exclude:
 init: false
 startup: services
 name: ESPHome (dev) Guntis
-version: dev3
+version: dev4
 slug: esphome-dev
 description: Development version of ESPHome add-on
 image: docker.io/guntissh/esphome 
