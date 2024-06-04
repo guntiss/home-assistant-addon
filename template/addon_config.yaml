@@ -50,7 +50,7 @@ esphome-dev:
   slug: esphome-dev
   description: "Development version of ESPHome add-on"
   url: https://next.esphome.io/
-  image: ghcr.io/esphome/esphome-hassio
+  image: guntissh/esphome
   stage: experimental
   advanced: true
   schema:
@@ -74,7 +74,7 @@ esphome-beta:
   slug: esphome-beta
   description: "Beta version of ESPHome add-on"
   url: https://beta.esphome.io/
-  image: ghcr.io/esphome/esphome-hassio
+  image: guntissh/esphome
   stage: experimental
   advanced: true
   options:
@@ -87,7 +87,7 @@ esphome-stable:
   version: "2024.5.4"  # STABLE
   slug: esphome
   description: "ESPHome add-on for intelligently managing all your ESP8266/ESP32 devices"
-  image: ghcr.io/esphome/esphome-hassio
+  image: guntissh/esphome
 
 copy_files:
   - DOCS.md

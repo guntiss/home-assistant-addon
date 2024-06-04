@@ -35,4 +35,4 @@ name: ESPHome
 version: 2024.5.4
 slug: esphome
 description: ESPHome add-on for intelligently managing all your ESP8266/ESP32 devices
-image: ghcr.io/esphome/esphome-hassio
+image: guntissh/esphome
